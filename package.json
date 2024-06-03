@@ -1,0 +1,26 @@
+{
+  "name": "@nasic/ui-layer",
+  "type": "module",
+  "version": "0.0.3",
+  "description": "UI Layer",
+  "main": "nuxt.config.ts",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "nuxt": "^3.11.2",
+    "nuxt-primevue": "^0.3.1",
+    "primeicons": "^7.0.0",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.12.1",
+    "eslint": "^8.57.0"
+  }
+}
